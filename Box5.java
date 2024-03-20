@@ -46,11 +46,13 @@ class Box {
     l=s.nextDouble();
     b = s.nextDouble();
     // vol = mybox1.volume();
-    // mybox1.display();
+    mybox1.display();
+    mybox2.display();
+
     Box rect  = new Box(l,b);
 // get volume of second box
+System.out.println("\n\nRectangle Details:");
 rect.rectDisplay();
-    // mybox2.display();
 // System.out.println("Volume is " + vol);
 }
 }
